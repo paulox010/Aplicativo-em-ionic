@@ -1,0 +1,59 @@
+/* Estilo para o cabeçalho */
+ion-header {
+  --ion-background-color: #ffffff; /* Cor de fundo do cabeçalho */
+}
+
+ion-title {
+  color: #fff; /* Cor do texto do título */
+  font-size: 32px; /* Tamanho da fonte do título */
+}
+
+/* Estilo para o contêiner do formulário */
+.login-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para os itens do formulário */
+ion-item {
+  --ion-border-color: transparent; /* Removendo a borda dos itens */
+  margin-bottom: 16px; /* Espaçamento inferior entre os itens */
+}
+
+.input-label {
+  color: #030000; /* Cor do texto do rótulo */
+  font-size: 16px; /* Tamanho da fonte do rótulo */
+}
+
+.input-field {
+  font-size: 18px; /* Tamanho da fonte do campo de entrada */
+}
+
+/* Estilo para o botão de "Sign In" */
+.login-button {
+  background-color: #3880ff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  font-weight: bold; /* Deixa o texto do botão em negrito */
+  font-size: 18px; /* Tamanho da fonte do botão */
+  border-radius: 5px; /* Bordas arredondadas para o botão */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Sombra para o botão */
+}
+
+/* Centralize o botão horizontalmente */
+ion-button.login-button {
+  display: block;
+  margin: 0 auto;
+}
+ion-content{
+  --background: url('https://i.pinimg.com/564x/e7/ae/a0/e7aea022d7bf77faf738609993fe6965.jpg') 0 0/100% 100% no-repeat;
+  
+}
+.flex-center{
+  display:flex;
+  justify-content:center;
+
+  align-items: center;
+
+}
